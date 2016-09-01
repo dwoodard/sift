@@ -1,0 +1,26 @@
+{
+  "name": "sift",
+  "version": "1.0.0",
+  "description": "Sift - a vue.js component to isolate that which is most important",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/main.js --output lib/sift.js --format cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwoodard/sift.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwoodard/sift/issues"
+  },
+  "homepage": "https://github.com/dwoodard/sift#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.34.13",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}

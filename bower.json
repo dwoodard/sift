@@ -1,0 +1,20 @@
+{
+  "name": "sift",
+  "description": "Sift - a vue.js component to isolate that which is most important",
+  "main": "index.js",
+  "authors": [
+    "Dustin Woodard <dustinwoodard@weber.edu>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dwoodard/sift",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^1.0.26"
+  }
+}
