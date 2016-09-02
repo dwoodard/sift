@@ -1,6 +1,6 @@
 <template>
   <div class="sift">
-    <img src="./assets/logo.png">
+    <img src="../../assets/logo.png">
     <h1 class="app_h1">{{ msg }}</h1>
   </div>
 </template>

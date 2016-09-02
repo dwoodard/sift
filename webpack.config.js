@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     libraryTarget: "var",
-    library: ['Sift'],
+    library: ['sift'],
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'sift.js'

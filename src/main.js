@@ -1,8 +1,7 @@
 import Vue from 'vue'
-import App from './Sift.vue'
-
+import Sift from './js/components/Sift.vue'
 
 new Vue({
 	el: 'sift',
-	render: h => h(App)
+	render: h => h(Sift)
 })
