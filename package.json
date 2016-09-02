@@ -1,26 +1,24 @@
 {
-  "name": "sift",
-  "version": "1.0.0",
-  "description": "Sift - a vue.js component to isolate that which is most important",
-  "main": "index.js",
+  "name": "my-project",
+  "description": "A Vue.js project",
+  "author": "Dustin Woodard <dustinwoodard@weber.edu>",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/main.js --output lib/sift.js --format cjs"
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dwoodard/sift.git"
+  "dependencies": {
+    "vue": "^2.0.0-rc.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dwoodard/sift/issues"
-  },
-  "homepage": "https://github.com/dwoodard/sift#readme",
-  "dependencies": {},
   "devDependencies": {
-    "rollup": "^0.34.13",
-    "rollup-plugin-babel": "^2.6.1"
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.13.2",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.4",
+    "vue-loader": "^9.2.2",
+    "webpack": "^2.1.0-beta.20",
+    "webpack-dev-server": "^2.1.0-beta.0"
   }
 }

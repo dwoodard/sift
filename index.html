@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-<h1>Sift Example</h1>
+  <head>
+    <meta charset="utf-8">
+    <title>my-project</title>
+  </head>
+  <body>
+  	<h1>Vue Tests</h1>
+
+	<!-- <h2>test</h2> -->
+
+  	<div id="app">
+	  	{{"Vue from App"}}
+  		<sift></sift>
+  	</div>
 
 
-    {{'vue works'}}
-    <sift></sift>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+
+    <script src="dist/sift.js"></script>
 
 
 
-<script src="bower_components/vue/dist/vue.js"></script>
-<script src="lib/sift.js"></script>
+    <script>
 
-<script>
-    var vm = new Vue({
-        el:'body'
-    })
-</script>
 
-</body>
+		var vm = new Vue({
+			el: '#app'
+		})
+
+
+
+    </script>
+  </body>
 </html>

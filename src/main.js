@@ -1,3 +1,8 @@
-import Sift from './components/Sift.vue';
+import Vue from 'vue'
+import App from './Sift.vue'
 
-export default Sift;
+
+new Vue({
+	el: 'sift',
+	render: h => h(App)
+})
